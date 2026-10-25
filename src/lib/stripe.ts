@@ -7,6 +7,6 @@ if (!STRIPE_SECRET_KEY) {
 }
 
 export const stripe = new Stripe(STRIPE_SECRET_KEY, {
-    apiVersion: '2025-04-30.basil',
+    apiVersion: '2026-09-30.endive',
     typescript: true,
 });
